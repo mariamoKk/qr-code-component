@@ -1,0 +1,76 @@
+body {
+    width: auto;
+    background-color: var(--color-slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+}
+:root {
+   --color-slate-900 : #1F314F;
+   --color-slate-500 : #68778D;
+   --color-slate-300: #D5E1EF;
+   --color-white: #FFFFFF;
+   --space-500 : 32px;
+   --space-300 : 24px;
+   --space-200 : 16px;
+}
+@font-face {
+    font-family: Outfit Bold;
+    src: url(assets/OutfitBold.ttf);
+}
+@font-face {
+    font-family: Outfit Regular;
+    src: url(assets/OutfitRegular.ttf);
+}
+.text-preset-1 {
+    font-family: Outfit Bold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.text-preset-2 {
+    font-family: Outfit Regular;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.card {
+    width: 288px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    gap: var(--space-200);
+    padding: var(--space-200) var(--space-200) var(--space-500);
+}
+
+.qr-image {
+    width: 288px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-slate-900);
+}
+
+p {
+   color: var(--color-slate-500);
+   text-align: center;
+}
+.attribution {
+    bottom: 0;
+    position: absolute;
+}
+.text {
+    padding: 0 var(--space-200);
+}
